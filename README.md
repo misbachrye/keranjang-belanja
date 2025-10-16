@@ -1,16 +1,51 @@
-# React + Vite
+# 🛒 Keranjang Belanja - Latihan React & Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplikasi keranjang belanja sederhana yang dibangun dengan React (Vite) untuk latihan *state management* menggunakan Hooks (`useState`), *props*, dan *event handling*.
 
-Currently, two official plugins are available:
+![Tampilan Aplikasi](link-ke-screenshot-aplikasi-anda.png)
+*Ganti `link-ke-screenshot-aplikasi-anda.png` dengan screenshot aplikasi Anda. Anda bisa drag-and-drop gambar ke dalam editor README di GitHub untuk meng-uploadnya.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Tambah Item**: Menambahkan item baru ke dalam daftar "ingin dibeli".
+- **Hapus Item**: Menghapus item secara permanen, baik dari daftar aktif maupun daftar selesai.
+- **Tandai Selesai**: Memindahkan item dari daftar "ingin dibeli" ke daftar "sudah dibeli".
+- **Batal Selesai (Undo)**: Mengembalikan item dari daftar "sudah dibeli" ke daftar "ingin dibeli".
+- **Jumlah Total**: Menampilkan total item yang ada di kedua daftar.
+- **Desain Modern**: Antarmuka didesain dengan tema *dark mode* "Aurora Glassmorphism" yang menarik secara visual.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Teknologi yang Digunakan
+
+- **React**: Library utama untuk membangun antarmuka pengguna, memanfaatkan Hooks (`useState`).
+- **Vite**: Sebagai *build tool* dan *development server* yang sangat cepat.
+- **JavaScript (ES6+)**: Bahasa pemrograman utama.
+- **CSS**: Untuk styling kustom, termasuk animasi dan efek *glassmorphism*.
+
+---
+
+## 🛠️ Cara Menjalankan Proyek Secara Lokal
+
+1.  **Clone repositori ini:**
+    ```bash
+    git clone [https://github.com/NAMA_USER_ANDA/keranjang-belanja.git](https://github.com/NAMA_USER_ANDA/keranjang-belanja.git)
+    ```
+
+2.  **Masuk ke direktori proyek:**
+    ```bash
+    cd keranjang-belanja
+    ```
+
+3.  **Install semua dependensi yang dibutuhkan:**
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan development server:**
+    ```bash
+    npm run dev
+    ```
+    Buka [http://localhost:5173](http://localhost:5173) (atau alamat yang muncul di terminal) di browser Anda.
