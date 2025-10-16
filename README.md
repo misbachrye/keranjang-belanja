@@ -2,9 +2,6 @@
 
 > Aplikasi keranjang belanja sederhana yang dibangun dengan React (Vite) untuk latihan *state management* menggunakan Hooks (`useState`), *props*, dan *event handling*.
 
-![Tampilan Aplikasi](link-ke-screenshot-aplikasi-anda.png)
-*Ganti `link-ke-screenshot-aplikasi-anda.png` dengan screenshot aplikasi Anda. Anda bisa drag-and-drop gambar ke dalam editor README di GitHub untuk meng-uploadnya.*
-
 ---
 
 ## ✨ Fitur Utama
