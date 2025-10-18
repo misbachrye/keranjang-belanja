@@ -28,7 +28,7 @@
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/NAMA_USER_ANDA/keranjang-belanja.git](https://github.com/NAMA_USER_ANDA/keranjang-belanja.git)
+    git clone [https://github.com/misbachrye/keranjang-belanja.git](https://github.com/misbachrye/keranjang-belanja.git)
     ```
 
 2.  **Masuk ke direktori proyek:**
